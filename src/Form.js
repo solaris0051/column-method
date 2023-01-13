@@ -5,6 +5,7 @@ export default function Form() {
     <form name="column-method" method="post">
       <fieldset>
         <legend>Column Method</legend>
+        <input type="hidden" name="form-name" value="column-method" />
         <div>
           <label htmlFor="occasion">①状況 = Event</label> <br />
           <textarea id="occasion" name="occasion" cols="50" rows="2" required></textarea>
@@ -24,6 +25,7 @@ export default function Form() {
         </div>
         <div>
           <label htmlFor="anti-these">⑤反証</label> <br />
+          自己の経験に基づくものがよい。XXにとらわれすぎない(XX: 指標など) <br />
           <textarea id="anti-these" name="anti-these" cols="50" rows="2" required></textarea>
         </div>
         <div>
@@ -32,6 +34,7 @@ export default function Form() {
         </div>
         <div>
           <label htmlFor="change">⑦気分の変化</label> <br />
+          それぞれの強さを%表記 <br />
           <textarea id="change" name="change" cols="50" rows="2" required></textarea>
         </div>
         <div>
