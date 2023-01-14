@@ -15,7 +15,3 @@ code {
 span {
   color: red;
 }
-
-*:required {
-  background-color: white;
-}
