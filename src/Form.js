@@ -3,6 +3,7 @@ import React from "react";
 export default function Form() {
   return (
     <form name="column-method" method="post">
+      <input type="hidden" name="form-name" value="column-method" />
       <p><span>メタ認知を活かすためのTips</span></p>
       <ul>
         <li><span>①-③を順に整列します。</span>問題定義部 (状況が混み入っている場合などには、特によく整理します。)</li>
@@ -10,7 +11,6 @@ export default function Form() {
       </ul>
       <p><span>*</span>必須</p>
       <fieldset>
-        <input type="hidden" name="form-name" value="column-method" />
         <div>
           <label htmlFor="occasion">①状況 = Event</label><span>*</span> <br />
           <textarea id="occasion" name="occasion" cols="100" rows="3" placeholder="発生タイミングは、②③が発生する直前です。それを叙事的(機械的)に書きます。" required></textarea>
