@@ -1,4 +1,6 @@
 .App {
+  display: grid;
+  grid-auto-columns: min-content;
   padding: 1em;
+  background-color: transparent;
 }
-
