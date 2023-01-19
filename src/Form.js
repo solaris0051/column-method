@@ -16,8 +16,8 @@ export default function Form() {
           <textarea id="occasion" name="occasion" cols="100" rows="3" placeholder="発生タイミングは、②③が発生する直前です。それを叙事的(機械的)に書きます。" required></textarea>
         </div>
         <div>
-          <label htmlFor="feels">②気分 = Feeling</label><span>*</span> <br />
-          <textarea id="feels" name="feels" cols="100" rows="3" placeholder="それぞれの強さを%表記します(寄与が大きいものに着目するとよいです。)。" required></textarea>
+          <label htmlFor="feeling">②気分 = Feeling</label><span>*</span> <br />
+          <textarea id="feeling" name="feeling" cols="100" rows="3" placeholder="それぞれの強さを%表記します(寄与が大きいものに着目するとよいです。)。" required></textarea>
         </div>
         <div>
           <label htmlFor="schematic-idea">③自動思考 = Idea</label><span>*</span> <br />
@@ -28,8 +28,8 @@ export default function Form() {
           <textarea id="cause" name="cause" cols="100" rows="3" placeholder="自分なりの根拠を書いてみます。" required></textarea>
         </div>
         <div>
-          <label htmlFor="anti-these">⑤反証</label><span>*</span> <br />
-          <textarea id="anti-these" name="anti-these" cols="100" rows="3" placeholder="自分の経験に基づいた、多くの反証を見つけるとよいです。XXにとらわれすぎないようにします(XX: 指標など。)。" required></textarea>
+          <label htmlFor="anti-thesis">⑤反証</label><span>*</span> <br />
+          <textarea id="anti-thesis" name="anti-thesis" cols="100" rows="3" placeholder="自分の経験に基づいた、多くの反証を見つけるとよいです。XXにとらわれすぎないようにします(XX: 指標など。)。" required></textarea>
         </div>
         <div>
           <label htmlFor="rational-idea">⑥適応的思考</label><span>*</span> <br />
@@ -40,8 +40,8 @@ export default function Form() {
           <textarea id="change" name="change" cols="100" rows="3" placeholder="それぞれの強さを%表記します。" required></textarea>
         </div>
         <div>
-          <label htmlFor="change">Option</label> <br />
-          <textarea id="change" name="option" cols="100" rows="3" placeholder="振り返ってみると、さらに俯瞰ができます。"></textarea>
+          <label htmlFor="option">Option</label> <br />
+          <textarea id="option" name="option" cols="100" rows="3" placeholder="振り返ってみると、さらに俯瞰ができます。"></textarea>
         </div>
         <div>
           <input type="submit" value="送信" />
