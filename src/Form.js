@@ -24,7 +24,7 @@ export default function Form() {
       </div>
       <div>
         <label htmlFor="cause">④自動思考の根拠</label><span>*</span> <br />
-        <textarea id="cause" name="cause" cols="62" rows="4" placeholder="自分なりの根拠を書いてみます。" required></textarea>
+        <textarea id="schematic-cause" name="schematic-cause" cols="62" rows="4" placeholder="自分なりの根拠を書いてみます。" required></textarea>
       </div>
       <div>
         <label htmlFor="anti-thesis">⑤反証</label><span>*</span> <br />
