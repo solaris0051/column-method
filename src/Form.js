@@ -23,7 +23,7 @@ export default function Form() {
         <textarea id="schematic-idea" name="schematic-idea" cols="62" rows="4" placeholder="自動思考とは、経験などから生じた思考の型(スキーマ)から発生する思考です。" required></textarea>
       </div>
       <div>
-        <label htmlFor="cause">④自動思考の根拠</label><span>*</span> <br />
+        <label htmlFor="schematic-cause">④自動思考の根拠</label><span>*</span> <br />
         <textarea id="schematic-cause" name="schematic-cause" cols="62" rows="4" placeholder="自分なりの根拠を書いてみます。" required></textarea>
       </div>
       <div>
