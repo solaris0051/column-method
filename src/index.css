@@ -7,10 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-span {
-  color: darkblue;
-}
-
 div {
   display: grid;
   background-color: lightskyblue;
@@ -19,6 +15,24 @@ div {
 h1 {
   display: grid;
   grid-column-start: 2;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+ul {
+  margin-top: 0;
+}
+
+p {
+  text-decoration: underline;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: darkblue;
 }
 
 form {
@@ -27,12 +41,16 @@ form {
   white-space: pre-wrap;
 }
 
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
 footer {
   display: grid;
   grid-column-start: 2;
   text-align: center;
-}
-
-textarea{
-  white-space: pre-wrap;
 }
