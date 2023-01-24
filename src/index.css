@@ -12,5 +12,23 @@ span {
 }
 
 div {
+  display: grid;
   background-color: lightskyblue;
+}
+
+h1 {
+  display: grid;
+  grid-column-start: 2;
+}
+
+form {
+  display: grid;
+  grid-column-start: 2;
+  white-space: pre-wrap;
+}
+
+footer {
+  display: grid;
+  grid-column-start: 2;
+  text-align: center;
 }
