@@ -15,6 +15,7 @@ div {
 h1 {
   display: grid;
   grid-column-start: 2;
+  grid-column-end: 7;
   text-align: center;
   box-sizing: border-box;
   background-color: antiquewhite;
@@ -38,7 +39,7 @@ span {
 form {
   display: grid;
   grid-column-start: 2;
-  white-space: pre-wrap;
+  grid-column-end: 7;
 }
 
 textarea {
@@ -52,5 +53,6 @@ textarea {
 footer {
   display: grid;
   grid-column-start: 2;
+  grid-column-end: 7;
   text-align: center;
 }
