@@ -47,7 +47,7 @@ export default function Form() {
       </div>
       <br />
       <div>
-        <label htmlFor="振り返り">Option</label>
+        <label htmlFor="振り返り">振り返り</label>
         <textarea id="振り返り" name="振り返り" cols="50" rows="4" placeholder="振り返ってみると、さらに俯瞰ができます。"></textarea>
       </div>
       <br />
