@@ -13,7 +13,6 @@ div {
 }
 
 h1 {
-  display: grid;
   grid-column-start: 2;
   grid-column-end: 7;
   text-align: center;
