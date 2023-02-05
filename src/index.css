@@ -64,8 +64,17 @@ textarea:focus {
   background-color: antiquewhite;
 }
 
+textarea:hover {
+  background-color: antiquewhite;
+}
+
 button {
   margin-top: 1em;
+}
+
+button:hover{
+  background-color: #4CAF50;
+  color: white;
 }
 
 footer {
