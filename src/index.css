@@ -7,21 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-div {
+.App {
+  padding: 1em;
+  height: max-content;
   display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+div {
   background-color: lightskyblue;
 }
 
 h1 {
+  display: grid;
   grid-column-start: 2;
   grid-column-end: 7;
-  text-align: center;
   box-sizing: border-box;
+  text-align: center;
   background-color: antiquewhite;
 }
 
 ul {
   margin-top: 0;
+  margin-bottom: auto;
 }
 
 p {
@@ -35,6 +43,10 @@ span {
   color: darkblue;
 }
 
+label {
+  margin-top: 1em;
+}
+
 form {
   display: grid;
   grid-column-start: 2;
@@ -46,7 +58,14 @@ textarea {
   font-size: 100%;
   padding: 0;
   margin: 0;
-  white-space: pre-wrap;
+}
+
+textarea:focus {
+  background-color: antiquewhite;
+}
+
+button {
+  margin-top: 1em;
 }
 
 footer {
@@ -54,4 +73,5 @@ footer {
   grid-column-start: 2;
   grid-column-end: 7;
   text-align: center;
+  margin-top: 1em;
 }

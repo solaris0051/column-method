@@ -1,6 +1,0 @@
-.App {
-  padding: 1em;
-  height: max-content;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-}
