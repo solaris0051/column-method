@@ -20,37 +20,48 @@ div {
 
 h1 {
   display: grid;
-  grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column: 2/7;
   box-sizing: border-box;
   text-align: center;
   background-color: antiquewhite;
 }
 
-ul {
-  margin-top: 0;
-  margin-bottom: auto;
+p {
+  margin: 0;
 }
 
-p {
+.h1p {
+  display: grid;
+  grid-column: 2/7;
   text-decoration: underline;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+ul {
+  display: grid;
+  grid-column: 2/7;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
 span {
   color: darkblue;
 }
 
+.wrapper {
+  display: grid;
+  grid-column: 1/7;
+}
+
 label {
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 form {
   display: grid;
-  grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column: 2/7;
 }
 
 textarea {
@@ -69,18 +80,18 @@ textarea:hover {
 }
 
 button {
-  margin-top: 1em;
+  grid-column: 3/5;
+  margin-top: 0.5em;
 }
 
-button:hover{
+button:hover {
   background-color: #4CAF50;
   color: white;
 }
 
 footer {
   display: grid;
-  grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column: 2/7;
   text-align: center;
   margin-top: 1em;
 }
