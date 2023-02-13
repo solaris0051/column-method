@@ -23,9 +23,9 @@ function App(props) {
       <p className="h1p"><span>*必須</span></p>
       <form className="form" name="column-method" method="post">
         <input type="hidden" name="form-name" value="column-method" />
-        
-          {todoList}
-        
+
+        {todoList}
+
         <button type="submit">送信</button>
       </form>
       <footer>
