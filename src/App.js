@@ -26,6 +26,7 @@ function App(props) {
 
         {todoList}
 
+        <div data-netlify-recaptcha="true"></div>
         <button type="submit">送信</button>
       </form>
       <footer>
