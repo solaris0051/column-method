@@ -17,7 +17,7 @@ function App(props) {
       <h1> Column Method </h1>
       <p className="h1p"><span>メタ認知を活かすためのTips</span></p>
       <ul>
-        <li><span>①-③を順に整列します。<br /></span>問題定義部 (状況が混み入っている場合などには、特によく整理します。) </li>
+        <li><span>①-③を順に整列します。<br /></span>問題定義部 (①-③はほぼ同時に発生し区別がつきにくいため、この作業が大切です。状況が混み入っている場合などには、特によく整理します。) </li>
         <li><span>④-⑦で問題を解いていきます。<br /></span>問題解決部 / 低減部</li>
       </ul>
       <p className="h1p"><span>*必須</span></p>
